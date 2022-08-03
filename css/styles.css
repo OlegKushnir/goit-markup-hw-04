@@ -24,20 +24,19 @@ h1, h2, h3, h4, h5, h6, ul, p {
     padding-inline-start: 0;
 }
 .section {
-    padding: 94px 15px;
+    padding: 94px 0;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
-    
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-header .container {
-    padding: 0 15px;
-}
 footer .container {
-    padding: 60px 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 header {
