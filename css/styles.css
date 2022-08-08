@@ -34,11 +34,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
     padding-right: 15px;
 }
 
-footer .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -58,11 +53,14 @@ header {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 footer .logo {
     display: inline-block;
     margin-bottom: 20px;
     margin-right: 0;
+    padding: 0;
 }
 header .logo-studio{
     color: var(--title-black-color);
@@ -339,6 +337,16 @@ footer .logo-studio{
 
 footer {
     background-color: var(--dark-bgr);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+address li {
+    margin-bottom: 9px;
+}
+
+address li:last-child {
+    margin-bottom: 0;
 }
 
 .flex-footer {
